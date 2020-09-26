@@ -1,0 +1,127 @@
+html {
+  margin: 0;
+  padding:0;
+}
+
+body {
+	margin:0 auto;
+	padding:0px 0 0 ;
+	text-align:center;
+	background:#F6F6F6;
+	color:#515151;
+	font-family:Verdana,Arial,Helvetica,'meirio','ãƒ¡ã‚¤ãƒªã‚ª','Hiragino Maru Gothic Pro','ãƒ’ãƒ©ã‚®ãƒŽä¸¸ã‚´ Pro W4',Osaka,'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯',sans-serif;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+a:hover {
+  transition: .3s;
+  opacity: 0.6;
+}
+#wrapper {
+  margin: 0;
+  padding: 0;
+  border-top: solid 8px #6CC6C4;
+}
+
+#header-wrapper {
+margin: 0 auto 20px;
+text-align: left;
+width: 920px;
+}
+ #header {
+   height: 200px;
+   position: relative;
+ }
+
+ .siteTitle {
+   position: absolute;
+   top: 50px;
+   left:0px;
+   margin: 0;
+   padding: 0;
+   font-weight: normal;
+ }
+
+ .description {
+   position: absolute;
+   top: 10px;
+   right: 0px;
+   margin: 0;
+   padding: 0;
+   font-size: 10px;
+   text-align: right;
+   line-height: 18px;
+ }
+
+ .headerAddress {
+  position: absolute;
+  top: 35px;
+  right: 0px;
+  height: 75px;
+  width: 220px;
+ }
+ .headerAddress .tel {
+  font-size: 26px;
+  font-weight: 400;
+  margin: 0;
+  padding: 0 0 0 25px;
+  text-align: right;
+  line-height: 46px;
+ }
+ .fa-phone-volume {
+   position: absolute;
+   left: 5px;
+   top: 10px;
+ }
+
+ .headerAddress .time{
+  border: solid 1px #D6D6D6;
+  padding: 5px 0;
+  text-align: center;
+  margin: 0;
+  position: absolute;
+  bottom: 0;
+  width: 220px;
+  font-size: 10px;
+  line-height: 18px;
+ }
+ .headerAddress .time .hot{
+  color: #B22C00;
+ }
+
+.navi {
+ position:absolute;
+	bottom:0px;
+	left:0px;
+	border:solid 1px #6CC6C4;
+	height:70px;
+	width:919px;
+	background-image:-moz-linear-gradient(50% -1%,rgb(156,227,225) 0%,rgb(108,198,196) 100%);
+	background-image:-webkit-gradient(linear,50% -1%,50% 101%,color-stop(0, rgb(156,227,225)),color-stop(1, rgb(108,198,196)));
+	background-image:-webkit-linear-gradient(rgb(156,227,225) 0%,rgb(108,198,196) 100%);
+	background-image:-o-linear-gradient(rgb(156,227,225) 0%,rgb(108,198,196) 100%);
+	background-image:-ms-linear-gradient(rgb(156,227,225) 0%,rgb(108,198,196) 100%);
+	background-image:linear-gradient(rgb(156,227,225) 0%,rgb(108,198,196) 100%);
+	-ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr=#ff9ce3e1,endColorstr=#ff6cc6c4,GradientType=0)";
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#ff9ce3e1,endColorstr=#ff6cc6c4,GradientType=0);
+	line-height:70px;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+}
+
+.navi ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  float: left;
+  height: 70px;
+}
