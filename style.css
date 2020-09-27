@@ -7,9 +7,9 @@ body {
 	margin:0 auto;
 	padding:0px 0 0 ;
 	text-align:center;
-	background:#F6F6F6;
 	color:#515151;
-	font-family:Verdana,Arial,Helvetica,'meirio','ãƒ¡ã‚¤ãƒªã‚ª','Hiragino Maru Gothic Pro','ãƒ’ãƒ©ã‚®ãƒŽä¸¸ã‚´ Pro W4',Osaka,'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯',sans-serif;
+  font-family:Verdana,Arial,Helvetica,'meirio','ãƒ¡ã‚¤ãƒªã‚ª','Hiragino Maru Gothic Pro','ãƒ’ãƒ©ã‚®ãƒŽä¸¸ã‚´ Pro W4',Osaka,'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯',sans-serif;
+  background: #f6f6f6;
 }
 img {
   max-width: 100%;
@@ -95,15 +95,13 @@ width: 920px;
  }
  .headerAddress .time .hot{
   color: #B22C00;
+  margin-left: 3px;
  }
 
 .navi {
- position:absolute;
-	bottom:0px;
-	left:0px;
+  width: 920px;
+  margin: -90px auto;
 	border:solid 1px #6CC6C4;
-	height:70px;
-	width:919px;
 	background-image:-moz-linear-gradient(50% -1%,rgb(156,227,225) 0%,rgb(108,198,196) 100%);
 	background-image:-webkit-gradient(linear,50% -1%,50% 101%,color-stop(0, rgb(156,227,225)),color-stop(1, rgb(108,198,196)));
 	background-image:-webkit-linear-gradient(rgb(156,227,225) 0%,rgb(108,198,196) 100%);
@@ -115,13 +113,83 @@ width: 920px;
 	line-height:70px;
 	-moz-border-radius:6px;
 	-webkit-border-radius:6px;
-	border-radius:6px;
+  border-radius:6px;
+    /* cursor: pointer; */
 }
 
 .navi ul {
   list-style: none;
   margin: 0;
   padding: 0;
-  float: left;
+  display: flex;
+  width: 920px;
+}
+
+.navi ul li {
+  width: 20%;
   height: 70px;
+  display: inline-block;
+  line-height:70px;
+  /* border-right: #71C9C7 solid 1px; */
+  border-left: #85cac8 solid 1px;
+  cursor: pointer !important;
+}
+
+.navi ul li a {
+  display:inline-block;
+  height:70px;
+  width:184px;
+  text-shadow: 1px 1px 2px #6CC6C4;
+  cursor: pointer;
+}
+
+.navi ul li a:hover {
+    background-image: linear-gradient(rgb(108,198,196) 0%,rgb(156,227,225) 100%);
+    text-shadow: 1px 1px 2px #6CC6C4;
+}
+
+.titleJa {
+  display: block;
+  height:18px;
+  line-height: 14px;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.titleEn {
+  display: block;
+  height: 15px;
+  line-height:15px;
+  text-align: center;
+  font-size: 10px;
+  font-weight: 700;
+  color: #fff;
+}
+
+#contents {
+  width: 920px;
+  height:700px;
+  margin: 0 auto;
+  margin-top: 100px;
+  position: relative;
+}
+
+#main {
+  position: absolute;
+  right: 0;
+  /* background: purple; */
+  width: 640px;
+}
+#contents .main-image img {
+  width: 640px;
+  height: 280px;
+}
+
+#contents #main .inner {
+  width: 640px;
+  height: 410px;
+  background: #ffffff;
 }
